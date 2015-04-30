@@ -1,0 +1,569 @@
+ /* 
+ File: Doc 95 main CSS file.
+ Author: Atsu Davoh.
+ Contact: davoha@carleton.edu
+ */
+
+ 
+ /* General page styling */
+     html, body {
+	    background-color: #e9eaed; /*#f5f8fa;*/
+        width:100%;
+        height:100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align:center;
+        overflow-y:auto; 
+	    }
+	 
+
+	 
+	 
+	 a {
+	    text-decoration: none;
+	    color: initial;
+	    }
+	 
+	 a:hover {
+	    text-decoration: none;
+	    color: initial;
+	    }
+		
+		
+     hr {
+	    border: 1px solid grey;
+	    width: 70%;
+	    opacity: 0.5;
+	    margin-top: 10px;
+	    }
+		
+		
+		
+		
+		
+/* Header styling */
+	 .logo {
+	    font-family: 'Pacifico', cursive;
+	    font-size: 30px;
+	    margin-top: -8px;
+	    padding-top: 0px;
+		color: #286090;
+	    }	
+		
+		
+     .nav-custom{
+        margin-top: 0px;
+	    }
+		
+	 .navhidden-custom{
+        background: #f8f8f8;
+	    position: relative;
+	    z-index: 9;
+	    }
+		
+	 .nav-text1 {
+        color: #f2f2f2;
+	    font-size: 17px;
+	    font-family: 'Raleway', sans-serif;
+	    }
+	 
+     .nav-text2 {
+        color: black;
+	    font-size: 20px;
+	    font-family: 'Raleway', sans-serif;
+	    }
+	 
+     .nav-text3 {
+        color: black;
+	    font-size: 15px;
+	    font-family: 'Raleway', sans-serif;
+	    }
+	 
+     .nav-text4 {
+	    display: inline;
+        color: black;
+	    font-size: 15px;
+	    font-family: 'Raleway', sans-serif;
+	    }
+		
+	 .search-post1 {
+        margin-top: 0px;
+	    display: inline;
+	    }
+ 
+     .search-post2 {
+        margin-top: 0px;
+	    display: inline;
+        }
+	
+     .placeholder-style::-webkit-input-placeholder { color:black; font-family: 'Raleway', sans-serif; }
+     .placeholder-style::-moz-placeholder { color:black; font-family: 'Raleway', sans-serif;} /* firefox 19+ */
+     .placeholder-style:-ms-input-placeholder { color:black; font-family: 'Raleway', sans-serif;} /* ie */
+      input:-moz-placeholder { color:black; font-family: 'Raleway', sans-serif;}
+
+/* individual: webkit */
+     .placeholder-style::-webkit-input-placeholder { color:black; font-family: 'Raleway', sans-serif;}
+     .placeholder-style::-webkit-input-placeholder { color:black; text-transform:lowercase; font-family: 'Raleway', sans-serif; }
+     .placeholder-style::-webkit-input-placeholder {  color:black; font-family: 'Raleway', sans-serif;}
+
+/* individual: mozilla */
+     .placeholder-style::-moz-placeholder { color:black; font-family: 'Raleway', sans-serif;}
+     .placeholder-style::-moz-placeholder { color:black; text-transform:lowercase; font-family: 'Raleway', sans-serif;}
+     .placeholder-style::-moz-placeholder {  color:black; font-family: 'Raleway', sans-serif;}	 	
+
+	
+	 .subtitle-main	{
+        width: 95%; 
+	    margin: 0 auto;
+	    }
+	 
+     .subtitle-custom1 {
+	    color: black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px; 
+	    margin-top: 0px;
+	    padding-top: 0px;
+	    margin-bottom: 30px;
+	    text-align: left;
+        }
+	 
+     .subtitle-custom2 {
+	    color: black;
+        margin-top: -40px;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 10px;
+	    text-align: left;  
+        }	 
+	 
+	 
+	 
+	 
+	 
+/* Main content styling */ 
+     .main-row {
+        width: 95%; 
+	    margin: 0 auto;
+        }
+ 
+     .main-style {
+        background-color: white;
+        height: auto;
+        }
+ 
+ 
+     .fb-profilepic {
+        width:175px;
+        height:175px; 
+        align: center;
+        border-radius: 5px;
+        margin-top: 10px;
+        }
+		
+	 .post-writer {
+        display: block; 
+        cursor: pointer; 
+        color: #286090;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 5px;
+        }
+ 
+     .comment-but {
+        color: black;
+	    font-size: 15px;
+	    font-family: 'Raleway', sans-serif;
+	    }	
+		
+	 .main-heading { 
+	    color: black;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        }
+
+		
+     .table-style1 {
+	    color: black;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+        }
+		
+	 .debate-leader {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        border: 3px solid red;
+        color: red;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        }
+ 
+     .table-style2 {
+	    color: black;
+        text-align: left;
+        font-family: georgia;
+        font-size: 15px;
+        }
+
+     .comment-personal {
+        display: block;
+        height: auto;
+        min-height: 50px;
+        }
+ 
+     .comment-person {
+        display: inline;
+        font-family: 'Raleway', sans-serif;
+        color: #286090;
+        font-size: 16px;
+		font-weight: bold;
+        }
+ 
+     .comment-opinion {
+        display: inline;
+        font-family: 'Raleway', sans-serif;
+        color: #286090;
+        font-size: 15px;
+        }
+ 
+     .comment-number {
+        display: inline;
+        font-family: 'Raleway', sans-serif;
+        color: black;
+        font-weight: bold;
+        margin-right: 10px;
+        }
+ 
+     .comment-icon1 {
+        display: inline;
+        margin-left: 10px;
+		color: black;
+        }
+ 
+     .comment-icon2 {
+        display: inline;
+        margin-left: 10px;
+		color: black;
+        }
+ 
+     .comment-icon3 {
+        display: inline;
+        margin-left: 10px;
+		color: black;
+        }
+
+		
+	 .new-comments {
+        width: 70%;
+        margin: 0 auto;
+        background-color: #d3d3d3;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        color: #286090;
+        font-weight: bold;
+        }
+
+		
+		
+		
+		
+/* Trending styling */ 
+     .trend-head {
+	    color: black;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+	    margin-bottom: -10px;
+	    margin-top: 30px;  
+	    margin-bottom: 10px;
+        }	 
+	 
+     .trend-text {
+	    padding-left: 20px;
+        max-width: 300px;
+        margin: 0 auto;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        color: #286090;
+        }
+ 
+ 
+ 
+ 
+ 
+/* Contribution styling */ 
+     .contribution-row { 
+	    width: 95%; 
+		margin: 0 auto;
+	    }
+	 
+	 .contribution-box {
+	    color: black;
+	    border-radius: 5px;
+	    font-size: 15px;
+	    font-family: 'Raleway', sans-serif;
+	    background: white;
+	    text-align: left;
+	    margin-top: 10px;
+		min-width: 30px;
+	    max-width: 300px;
+	    height: 400px;
+	    margin-bottom: 80px;
+	    margin: 0 auto;
+	    margin-bottom: 40px;
+	    }
+	 
+	 .contribution-text {
+	    color: black;
+	    width: 90%;
+	    margin: 0 auto;
+	    padding-top: 10px;
+	    }
+	 
+	 .contribution-profilepic {
+        width:75px;
+        height:75px; 
+        margin-right: 10px;
+        border-radius: 5px;
+        }
+ 
+     .contribution-title {
+	    color: black;
+        font-size: 20px;
+        font-family:  'Raleway', sans-serif;
+        margin-top: 80px;
+        }
+ 
+ 
+ 
+ 
+ /* Argument and Comment form lightbox styling */ 
+     .writeargument-textarea {
+        height: 100px ! important; 
+        resize: none;
+        width: 220px; 
+        display: inline; 
+        margin: 0 auto;
+        }
+ 
+     .writeargument-heading {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: #286090;
+        font-weight: bold;
+        }
+ 
+     .writeargument-description {
+	    color: black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        text-align: left;
+        margin-bottom: 20px;
+        }
+ 
+     .writeargument-radio {
+        font-family: 'Raleway', sans-serif;
+        font-size: 17px;
+        color: #286090;
+        text-align: center;
+        padding-left: 2px;
+        }
+ 
+     .writeargument-close {
+        font-family: 'Raleway', sans-serif;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 30px;
+        display: block;
+        color: #286090;
+        }
+ 		
+     .black_overlay{
+        display: none;
+        position: fixed;
+		z-index: 1000;
+        top: 0%;
+        left: 0%;
+        width: 100%! important;
+        height: 100%! important;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);	
+        }
+
+    .white_content {
+        display: none;
+        position: fixed;
+        top: 0%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        margin-top: 270px;
+        width: 300px;
+        height: 450px;
+        padding: 16px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        background-color: white;
+        z-index:1002;
+        overflow: hidden;	
+        }
+
+		
+		
+		
+		
+/* Personal profile styling */ 
+	 .personal-row {
+        width: 95%;
+        margin: 0 auto;
+        }	 
+		
+	 .personal-pane {
+	    margin: 0 auto;
+	    background-color: white;
+		max-width: 300px;
+		height: auto;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	    }
+		
+		
+	 .contribution-stats1{
+		font-family:'Raleway', sans-serif;
+		font-size: 15px;
+		text-align: left;
+		margin-left: 40px;
+		color: #286090;
+		}
+		
+	 .contribution-stats2{
+		font-family:'Raleway', sans-serif;
+		font-size: 20px;
+		text-align: left;
+		margin-left: 10px;
+		color: black;
+		}
+		
+		
+		
+/*	 .filter-pane {
+		text-align: right;
+		color: #286090;
+		font-family: 'Raleway', sans-serif;
+		font-weight: bold;
+		font-size: 17px;
+		background-color: white;
+		border-radius: 30px;
+		width: 200px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		} */
+		
+		
+	 .personal-timelinemain {
+		background-color: white;
+		height: auto;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		}
+		
+	 .personal-timeline1 {
+		font-family: 'Raleway', sans-serif;
+		font-size: 20px;
+		color: #286090;
+		text-align: left;
+		padding-top: 20px;
+		margin-left: 20px;
+		font-weight: bold;
+		}
+		
+	 .personal-timeline2 {
+	    color: black;
+		margin-left: 20px;
+		font-family: 'Raleway', sans-serif;
+		text-align: left;
+		font-size: 15px;
+		margin-right: 10px;
+		}
+		
+	 .personal-timeline3 {
+	    color: black;
+		margin-left: 80px;
+		font-family: 'Raleway', sans-serif;
+		text-align: left;
+		font-size: 14px;
+		margin-right: 10px;
+		}
+		
+	 .personal-timeline4 {
+		font-size: 16px;
+		color: #286090;
+		font-weight: bold;
+		}
+		
+	 .lightbox-but {
+        color: black;
+	    font-size: 15px;
+	    font-family: 'Raleway', sans-serif;
+		display: block;
+		margin: 0 auto;
+       }	 
+	   
+	   
+	   
+	   
+	   
+/* Timeline page styling */ 
+	 .personal-timeline5 {
+		font-family: 'Raleway', sans-serif;
+		font-size: 30px;
+		color: #286090;
+		text-align: left;
+		padding-top: 20px;
+		margin-left: 20px;
+		font-weight: bold;
+		}
+		
+	 .personal-timeline6 {
+		margin-left: 20px;
+		font-family: 'Raleway', sans-serif;
+		text-align: left;
+		font-size: 20px;
+		margin-right: 10px;
+		color: black;
+		}
+		
+	 .personal-timeline7 {
+		margin-left: 80px;
+		font-family: 'Raleway', sans-serif;
+		text-align: left;
+		font-size: 17px;
+		margin-right: 10px;
+		color: black;
+		}
+		
+	 .personal-timeline8 {
+		font-size: 20px;
+		color: #286090;
+		font-weight: bold;
+		}
+		
+		
+		
+		
+	 .delete-but {
+        color: black;
+	    font-size: 15px;
+	    font-family: 'Raleway', sans-serif;
+		display: inline;
+        }	
