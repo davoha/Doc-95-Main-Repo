@@ -209,6 +209,7 @@
         }
 
      .comment-personal {
+	    margin-top: 20px;
         display: block;
         height: auto;
         min-height: 50px;
@@ -223,9 +224,14 @@
         }
  
      .comment-opinion {
+	    background-color: #f1f8fb;
+	    border: 1px solid #2865a1;
+		border-radius: 2px;
+		padding-left: 4px;
+		padding-right: 4px;
         display: inline;
-        font-family: 'Raleway', sans-serif;
-        color: #286090;
+        font-family: sans-serif;
+        color: #2865a1;
         font-size: 15px;
         }
  
@@ -257,12 +263,11 @@
 
 		
 	 .new-comments {
-        width: 70%;
+        width: auto;
         margin: 0 auto;
-        background-color: #d3d3d3;
-        font-size: 30px;
+        background-color: #e1e8ed;
+        font-size: 20px;
         font-family: 'Raleway', sans-serif;
-        border-radius: 30px;
         margin-bottom: 20px;
         color: #286090;
         font-weight: bold;
