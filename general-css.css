@@ -169,7 +169,10 @@
         }
  
      .comment-but {
-        color: black;
+	    margin-top: 20px;
+	    border: 1px solid #2865a1;
+	    background-color: #f1f8fb;
+        color: #2865a1;
 	    font-size: 15px;
 	    font-family: 'Raleway', sans-serif;
 	    }	
