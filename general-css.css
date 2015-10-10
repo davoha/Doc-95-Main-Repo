@@ -175,8 +175,8 @@
  
  
      .fb-profilepic {
-        width:175px;
-        height:175px; 
+        width:130px;
+        height:130px; 
         align: center;
         border-radius: 5px;
         margin-top: 10px;
@@ -576,7 +576,7 @@
 /* Timeline page styling */ 
 	 .personal-timeline5 {
 		font-family: 'Raleway', sans-serif;
-		font-size: 30px;
+		font-size: 20px;
 		color: #286090;
 		text-align: left;
 		padding-top: 20px;
