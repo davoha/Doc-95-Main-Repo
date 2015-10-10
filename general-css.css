@@ -84,7 +84,22 @@
         color: #2865a1;
 	    font-size: 15px;
 	    }
+
+     .atsu {
+	    display: inline;
+	    border: 1px solid #bbcadc;
+	    background: #f1f8fb;
+        color: #2865a1;
+	    font-size: 15px;
+	    }
 	 
+.nav-textx {
+	    display: inline;
+	    border: 1px solid #bbcadc;
+	    background: #f1f8fb;
+        color: #2865a1;
+	    font-size: 15px;
+	    }
 	 
      .nav-text4 {
 	    display: inline;
@@ -306,13 +321,17 @@
 	    padding-left: 20px;
         max-width: 300px;
         margin: 0 auto;
-        font-size: 13px;
-        
+        font-size: 13px;   
         text-align: left;
         color: #4c7ab7;
         }
  
- 
+     .trend-profilepic {
+        width:45px;
+        height:45px; 
+        margin-right: 10px;
+        border-radius: 5px;
+        }
  
  
  
@@ -367,27 +386,30 @@
      .writeargument-textarea {
         height: 100px ! important; 
         resize: none;
-        width: 220px; 
+        max-width: 420px;
+        min-width: 250px;
         display: inline; 
         margin: 0 auto;
+        margin-bottom: 20px;
         }
  
      .writeargument-heading {
         font-family: 'Raleway', sans-serif;
-        font-size: 20px;
+        font-size: 15px;
         color: #286090;
-        font-weight: bold;
+        
         }
  
      .writeargument-description {
+        margin: 0 auto;
 	    color: black;
         font-family: 'Raleway', sans-serif;
-        font-size: 15px;
-        text-align: left;
-        margin-bottom: 20px;
+        font-size: 12px;
+        margin-bottom: 10px;
         }
  
      .writeargument-radio {
+         margin-right: 20px;
         font-family: 'Raleway', sans-serif;
         font-size: 17px;
         color: #286090;
@@ -397,10 +419,10 @@
  
      .writeargument-close {
         font-family: 'Raleway', sans-serif;
-        font-size: 60px;
+        font-size: 20px;
         text-align: center;
-        margin-top: 30px;
-        display: block;
+        margin-left: 20px;
+        display: inline;
         color: #286090;
         }
  		
@@ -428,8 +450,8 @@
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         margin-top: 270px;
-        width: 300px;
-        height: 450px;
+        max-width: 600px;
+        height: 350px;
         padding: 16px;
         border-style: solid;
         border-width: 1px;
@@ -539,7 +561,7 @@
         color: #2865a1;
 	    font-size: 15px;
 	    font-family: 'Raleway', sans-serif;
-		display: block;
+		display: inline;
 		margin: 0 auto;
        }	 
 	   
@@ -566,7 +588,7 @@
 		margin-left: 20px;
 		font-family: Georgia;
 		text-align: left;
-		font-size: 18px;
+		font-size: 15px;
 		margin-right: 10px;
 		color: black;
 		}
