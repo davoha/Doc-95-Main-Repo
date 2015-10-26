@@ -57,7 +57,6 @@
      .nav-custom{
        background-color: white;
         margin-top: 0px;
-  
 	    }
 	
 .pipi {
@@ -66,8 +65,9 @@
 }
 
 	 .navhidden-custom{
+      
          max-width: 1200px;
-         
+    
         background: white;
 	    position: relative;
 	    z-index: 9;
