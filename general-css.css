@@ -49,7 +49,7 @@
 	    }	
 		
 	 .icon-1 {
-	    padding-right: 5px;
+	    padding-right: 0px;
 	    }
 		
 	  
@@ -88,12 +88,16 @@
        
 	    display: inline;
 	    border: 1px solid #bbcadc;
-         border-radius: 0px;
+         border-radius: 5px;
 	    background:  #2865a1;
         color: #f1f8fb;
 	    font-size: 15px;
 	    }
-
+.subty {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
 
  .nav-text100 {
      margin-right: 0px;
@@ -224,7 +228,7 @@
 	    margin-top: 20px;
          margin-bottom: 10px;
 	    border: 1px solid #bbcadc;
-         border-radius: 0px;
+         border-radius: 5px;
 	    background-color:  #2865a1;
         color: #f1f8fb;
 	    font-size: 15px;
@@ -246,17 +250,18 @@
 	    color: black;
         text-align: left;
         font-family: 'Raleway', sans-serif;
-        font-size: 19px;
+        font-size: 17px;
         }
 		
 	 .debate-leader {
         font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        border: 3px solid red;
+        font-size: 17px;
+         font-weight: normal;
+        border: 1px solid red;
         color: red;
         border-radius: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         }
  
      .table-style2 {
@@ -264,7 +269,7 @@
         text-align: left;
         font-family: 'Merriweather', serif;
 		font-weight: normal;
-        font-size: 14px;
+        font-size: 13px;
         }
 
      .comment-personal {
@@ -325,13 +330,13 @@ navbar-right {
  
      .comment-icon2 {
         display: inline;
-        margin-left: 10px;
+        margin-left: 5px;
 		color: black;
         }
  
      .comment-icon3 {
         display: inline;
-        margin-left: 10px;
+        margin-left: 5px;
 		color: black;
         }
 
