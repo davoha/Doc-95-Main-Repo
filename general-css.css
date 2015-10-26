@@ -394,6 +394,7 @@ navbar-right {
 	    }
 	 
 	 .contribution-box {
+	 	line-height: 70%;
 	    color: black;
 	    border-radius: 0px;
 	    font-size: 15px;
