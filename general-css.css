@@ -17,8 +17,6 @@
 	    }
 	 
 
-	 
-	 
 	 a {
 	    text-decoration: none;
 	    color: initial;
@@ -43,8 +41,8 @@
 		
 /* Header styling */
 	 .logo {
-	    font-family: 'Pacifico', cursive;
-	    font-size: 30px;
+	    font-family: 'Raleway', cursive;
+	    font-size: 27px;
 	    margin-top: -8px;
 	    padding-top: 0px;
 		color: #286090;
@@ -56,10 +54,19 @@
 		
 	  
      .nav-custom{
+       background-color: white;
         margin-top: 0px;
+  
 	    }
 	
+.pipi {
+    text-align: right;
+    display: inline;
+}
+
 	 .navhidden-custom{
+         max-width: 1200px;
+         
         background: white;
 	    position: relative;
 	    z-index: 9;
@@ -67,21 +74,32 @@
 		
 	 .nav-text1 {
         color: #f2f2f2;
-	    font-size: 17px;
+	    font-size: 14px;
 	    font-family: 'Raleway', sans-serif;
 	    }
 	 
      .nav-text2 {
         color: black;
-	    font-size: 20px;
+	    font-size: 14px;
 	    font-family: 'Raleway', sans-serif;
 	    }
 	 
      .nav-text3 {
+       
+	    display: inline;
+	    border: 1px solid #bbcadc;
+	    background:  #2865a1;
+        color: #f1f8fb;
+	    font-size: 15px;
+	    }
+
+
+ .nav-text100 {
+     width: auto;
 	    display: block;
 	    border: 1px solid #bbcadc;
-	    background: #f1f8fb;
-        color: #2865a1;
+	    background: #f1f8fb; 
+        color:  #2865a1;
 	    font-size: 15px;
 	    }
 
@@ -114,6 +132,7 @@
 	    }
  
      .search-post2 {
+      
         margin-top: 0px;
 	    display: inline;
         }
@@ -156,13 +175,12 @@
 	    text-align: left;  
         }	 
 	 
-	 
-	 
-	 
+
 	 
 /* Main content styling */ 
      .main-row {
         width: 95%; 
+         max-width: 1400px;
 	    margin: 0 auto;
         }
  
@@ -175,8 +193,8 @@
  
  
      .fb-profilepic {
-        width:130px;
-        height:130px; 
+        width:80px;
+        height:80px; 
         align: center;
         border-radius: 5px;
         margin-top: 10px;
@@ -186,25 +204,34 @@
         display: block; 
         cursor: pointer; 
         color: #286090;
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Raleway', sans-serif;
         margin-top: 5px;
         }
  
+
+.free {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    color: #286090;
+}
+
      .comment-but {
 	    margin-top: 20px;
+         margin-bottom: 10px;
 	    border: 1px solid #bbcadc;
-	    background-color: #f1f8fb;
-        color: #2865a1;
+	    background-color:  #2865a1;
+        color: #f1f8fb;
 	    font-size: 15px;
 	    font-family: 'Raleway', sans-serif;
 	    }	
 		
 	 .main-heading { 
 	    color: black;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Merriweather', serif;
         text-align: left;
-        font-size: 26px;
+        font-size: 15px;
 		font-weight: 450;
         margin-bottom: 10px;
         margin-top: 10px;
@@ -215,7 +242,7 @@
 	    color: black;
         text-align: left;
         font-family: 'Raleway', sans-serif;
-        font-size: 25px;
+        font-size: 19px;
         }
 		
 	 .debate-leader {
@@ -231,13 +258,14 @@
      .table-style2 {
 	    color: black;
         text-align: left;
-        font-family: Georgia;
+        font-family: 'Merriweather', serif;
 		font-weight: normal;
         font-size: 14px;
         }
 
      .comment-personal {
-	    margin-top: 20px;
+	    margin-top: 15px;
+         margin-bottom: -20px;
         display: block;
         height: auto;
         min-height: 50px;
@@ -247,10 +275,11 @@
         display: inline;
         font-family: 'Raleway', sans-serif;
         color: #286090;
-        font-size: 16px;
+        font-size: 15px;
 		font-weight: bold;
         }
  
+
      .comment-opinion {
 	    background-color: #f1f8fb;
 	    border: 1px solid #bbcadc;
@@ -265,13 +294,25 @@
         font-size: 15px;
         }
  
+
+.parse {
+    color: #2865a1;
+    font-size: 14px;
+}
+
+navbar-right {
+    margin-top: 820px;
+}
+
      .comment-number {
+         font-size: 12px;
         display: inline;
-        font-family: 'Raleway', sans-serif;
+        font-family:  sans-serif;
         color: black;
         margin-right: 10px;
         }
- 
+
+
      .comment-icon1 {
         display: inline;
         margin-left: 10px;
@@ -294,8 +335,8 @@
 	 .new-comments {
         width: auto;
         margin: 0 auto; 
-        font-size: 20px;
-        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-family:  sans-serif;
         margin-bottom: 20px;  
 		border: 1px solid #bbcadc;
 	    background: #f1f8fb;
@@ -309,19 +350,19 @@
 /* Trending styling */ 
      .trend-head {
 	    color: black;
-        font-size: 16px;
+        font-size: 14px;
         font-family: 'Raleway', sans-serif;
 	    margin-bottom: -10px;
 	    margin-top: 30px;  
 	    margin-bottom: 10px;
-		text-transform: uppercase;
         }	 
 	 
      .trend-text {
+         font-family: 'Merriweather', serif;
 	    padding-left: 20px;
         max-width: 300px;
         margin: 0 auto;
-        font-size: 13px;   
+        font-size: 12px;   
         text-align: left;
         color: #4c7ab7;
         }
@@ -344,14 +385,14 @@
 	 .contribution-box {
 	    color: black;
 	    border-radius: 5px;
-	    font-size: 15px;
-	    font-family: 'Raleway', sans-serif;
+	    font-size: 12px;
+	    font-family: 'Merriweather', serif;
 	    background: white;
 	    text-align: left;
 	    margin-top: 10px;
 		min-width: 30px;
 	    max-width: 300px;
-	    height: 400px;
+	    height: auto;
 	    margin-bottom: 80px;
 	    margin: 0 auto;
 	    margin-bottom: 40px;
@@ -365,16 +406,16 @@
 	    }
 	 
 	 .contribution-profilepic {
-        width:70px;
-        height:70px; 
+        width:45px;
+        height:45px; 
         margin-right: 10px;
         border-radius: 5px;
         }
  
      .contribution-title {
 	    color: black;
-        font-size: 16px;
-		text-transform: uppercase;
+        font-size: 14px;
+		
         font-family:  'Raleway', sans-serif;
         margin-top: 80px;
         }
@@ -586,18 +627,18 @@
 		
 	 .personal-timeline6 {
 		margin-left: 20px;
-		font-family: Georgia;
+		font-family: 'Merriweather', serif;
 		text-align: left;
-		font-size: 15px;
+		font-size: 17px;
 		margin-right: 10px;
 		color: black;
 		}
 		
 	 .personal-timeline7 {
 		margin-left: 80px;
-		font-family: Georgia;
+		font-family: 'Merriweather', serif;
 		text-align: left;
-		font-size: 15px;
+		font-size: 17px;
 		margin-right: 10px;
 		color: black;
 		}
