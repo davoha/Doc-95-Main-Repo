@@ -369,7 +369,9 @@ navbar-right {
         }	 
 	 
      .trend-text {
-         font-family:  serif;
+     		line-height: 95%;
+     		
+         font-family: 'Merriweather', serif;
 	    padding-left: 20px;
         max-width: 300px;
         margin: 0 auto;
@@ -394,7 +396,7 @@ navbar-right {
 	    }
 	 
 	 .contribution-box {
-	 	line-height: 70%;
+	 	line-height: 95%;
 	    color: black;
 	    border-radius: 0px;
 	    font-size: 15px;
