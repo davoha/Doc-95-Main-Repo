@@ -369,13 +369,13 @@ navbar-right {
         }	 
 	 
      .trend-text {
-     		line-height: 105%;
+     		line-height: 110%;
      		
          font-family:  serif;
 	    padding-left: 20px;
         max-width: 300px;
         margin: 0 auto;
-        font-size: 13px;   
+        font-size: 15px;   
         text-align: left;
         color: #4c7ab7;
         }
@@ -396,10 +396,10 @@ navbar-right {
 	    }
 	 
 	 .contribution-box {
-	 	line-height: 105%;
+	 	line-height: 110%;
 	    color: black;
 	    border-radius: 0px;
-	    font-size: 13px;
+	    font-size: 15px;
 	    font-family:  serif;
 	    background: white;
 	    text-align: left;
