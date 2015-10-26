@@ -77,7 +77,7 @@
 	    font-size: 14px;
 	    font-family: 'Raleway', sans-serif;
 	    }
-	 
+
      .nav-text2 {
         color: black;
 	    font-size: 14px;
@@ -88,6 +88,7 @@
        
 	    display: inline;
 	    border: 1px solid #bbcadc;
+         border-radius: 0px;
 	    background:  #2865a1;
         color: #f1f8fb;
 	    font-size: 15px;
@@ -95,9 +96,11 @@
 
 
  .nav-text100 {
+     margin-right: 0px;
      width: auto;
 	    display: block;
 	    border: 1px solid #bbcadc;
+     border-radius: 5px;
 	    background: #f1f8fb; 
         color:  #2865a1;
 	    font-size: 15px;
@@ -196,7 +199,7 @@
         width:80px;
         height:80px; 
         align: center;
-        border-radius: 5px;
+        border-radius: 0px;
         margin-top: 10px;
         }
 		
@@ -221,6 +224,7 @@
 	    margin-top: 20px;
          margin-bottom: 10px;
 	    border: 1px solid #bbcadc;
+         border-radius: 0px;
 	    background-color:  #2865a1;
         color: #f1f8fb;
 	    font-size: 15px;
@@ -250,7 +254,7 @@
         font-size: 20px;
         border: 3px solid red;
         color: red;
-        border-radius: 5px;
+        border-radius: 0px;
         padding-left: 10px;
         padding-right: 10px;
         }
@@ -283,7 +287,7 @@
      .comment-opinion {
 	    background-color: #f1f8fb;
 	    border: 1px solid #bbcadc;
-		border-radius: 4px;
+		border-radius: 0px;
 		padding-left: 8px;
 		padding-right: 8px;
 		padding-top: 4px;
@@ -371,7 +375,7 @@ navbar-right {
         width:45px;
         height:45px; 
         margin-right: 10px;
-        border-radius: 5px;
+        border-radius: 0px;
         }
  
  
@@ -384,7 +388,7 @@ navbar-right {
 	 
 	 .contribution-box {
 	    color: black;
-	    border-radius: 5px;
+	    border-radius: 0px;
 	    font-size: 12px;
 	    font-family: 'Merriweather', serif;
 	    background: white;
@@ -409,7 +413,7 @@ navbar-right {
         width:45px;
         height:45px; 
         margin-right: 10px;
-        border-radius: 5px;
+        border-radius: 0px;
         }
  
      .contribution-title {
@@ -425,35 +429,31 @@ navbar-right {
  
  /* Argument and Comment form lightbox styling */ 
      .writeargument-textarea {
-        height: 100px ! important; 
+        height: 200px ! important; 
         resize: none;
-        max-width: 420px;
-        min-width: 250px;
+        width: 100%;
+        
         display: inline; 
         margin: 0 auto;
         margin-bottom: 20px;
         }
  
      .writeargument-heading {
-        font-family: 'Raleway', sans-serif;
-        font-size: 15px;
-        color: #286090;
+         text-align: left;
+        font-family: 'Merriweather', serif;
+        font-size: 13px;
+        color: black;
         
         }
  
-     .writeargument-description {
-        margin: 0 auto;
-	    color: black;
-        font-family: 'Raleway', sans-serif;
-        font-size: 12px;
-        margin-bottom: 10px;
-        }
+    
  
      .writeargument-radio {
          margin-right: 20px;
-        font-family: 'Raleway', sans-serif;
-        font-size: 17px;
-        color: #286090;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+         font-weight: normal;
+        color: black;
         text-align: center;
         padding-left: 2px;
         }
@@ -464,7 +464,7 @@ navbar-right {
         text-align: center;
         margin-left: 20px;
         display: inline;
-        color: #286090;
+        color: black;
         }
  		
      .black_overlay{
@@ -491,8 +491,8 @@ navbar-right {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         margin-top: 270px;
-        max-width: 600px;
-        height: 350px;
+        max-width: 800px;
+        height: auto;
         padding: 16px;
         border-style: solid;
         border-width: 1px;
@@ -503,7 +503,26 @@ navbar-right {
         }
 
 		
-		
+		.white_content1 {
+        display: none;
+        position: fixed;
+        top: 0%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        margin-top: 270px;
+        max-width: 800px;
+        height: auto;
+        padding: 16px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        background-color: white;
+        z-index:1002;
+        overflow: hidden;	
+        }
+
 		
 		
 /* Personal profile styling */ 
