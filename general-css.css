@@ -320,7 +320,7 @@
 
      .comment-personal {
 	    margin-top: 15px;
-         margin-bottom: -20px;
+         margin-bottom: -5px;
         display: block;
         height: auto;
         min-height: 50px;
@@ -353,6 +353,28 @@
 .parse {
     color: #2865a1;
     font-size: 14px;
+}
+
+
+.alert-info {
+	
+	margin: 0 auto;
+	width: 50%;
+	padding-bottom :3px;
+	padding-top: 3px;
+
+	
+}
+
+
+.alert2 {
+	color: #2865a1;
+	font-weight: bold;
+}
+
+.alert2:hover {
+	color: #2865a1;
+	font-weight: bold;
 }
 
 navbar-right {
