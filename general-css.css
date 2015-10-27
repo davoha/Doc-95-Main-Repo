@@ -1,4 +1,4 @@
- /* 
+/* 
  File: Doc 95 main CSS file.
  Author: Atsu Davoh.
  Contact: davoha@carleton.edu
@@ -31,7 +31,7 @@
 	
 	
 	
-	@media (max-width: 901px) {
+	@media (max-width: 1020px) {
     .navbar-header {
         float: none;
     }
