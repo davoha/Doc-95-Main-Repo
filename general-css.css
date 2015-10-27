@@ -86,6 +86,7 @@
 /* Header styling */
 	 .logo {
 	    font-family: 'Raleway', cursive;
+	    font-weight: bold;
 	    font-size: 24px;
 	    margin-top: -8px;
 	    padding-top: 0px;
