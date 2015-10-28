@@ -317,7 +317,7 @@
 
 	 .main-heading { 
 	    color: black;
-        font-family: serif;
+        font-family: arial;
         text-align: left;
         font-size: 17px;
 		font-weight: 450;
@@ -347,7 +347,7 @@
      .table-style2 {
 	    color: black;
         text-align: left;
-        font-family: serif;
+        font-family: arial;
 		font-weight: normal;
         font-size: 14px;
         }
@@ -462,7 +462,7 @@ navbar-right {
      .trend-head {
 	    color: #2865a1;
         font-size: 14px;
-        font-family:  sans-serif;
+        font-family:  arial;
          font-weight: bold;
 	    margin-bottom: -10px;
 	    margin-top: 30px;  
@@ -472,7 +472,7 @@ navbar-right {
      .trend-text {
      		line-height: 110%;
      		
-         font-family:  serif;
+         font-family:  arial;
 	    padding-left: 20px;
         max-width: 300px;
         margin: 0 auto;
@@ -501,7 +501,7 @@ navbar-right {
 	    color: black;
 	    border-radius: 0px;
 	    font-size: 15px;
-	    font-family:  serif;
+	    font-family:  arial;
 	    background: white;
 	    text-align: left;
 	    margin-top: 10px;
@@ -532,7 +532,7 @@ navbar-right {
 	    color: #2865a1;
         font-size: 14px;
 		font-weight: bold;
-        font-family:  sans-serif;
+        font-family:  arial;
         margin-top: 80px;
         }
  
