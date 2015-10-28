@@ -258,11 +258,25 @@
         display: block; 
         cursor: pointer; 
         color: #286090;
-        font-size: 15px;
+        font-size: 14px;
         font-family: 'Raleway', sans-serif;
-        margin-top: 5px;
+        margin-top: 0px;
         }
  
+.view-conver {
+    display: block;
+    margin-top: 10px;
+    color: #286090;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    
+}
+
+
+.replyto {
+    color: #286090;
+    font-weight: bold;
+}
 
 .free {
     font-size: 20px;
@@ -282,6 +296,24 @@
 	    font-family: 'Raleway', sans-serif;
 	    }	
 		
+.comment-but1 {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+   margin: 0 auto;
+    display: block;
+	    margin-top: 5px;
+         margin-bottom: 0px;
+	    border: 1px solid #bbcadc;
+         border-radius: 5px;
+	    background-color:  #f1f8fb;
+        color: #2865a1;
+	font-weight: bold;
+	    font-size: 12px;
+	    font-family:  sans-serif;
+	    }	
+
 	 .main-heading { 
 	    color: black;
         font-family: serif;
