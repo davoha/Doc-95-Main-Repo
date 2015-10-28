@@ -459,9 +459,10 @@ navbar-right {
 		
 /* Trending styling */ 
      .trend-head {
-	    color: black;
+	    color: #2865a1;
         font-size: 14px;
-        font-family: 'Raleway', sans-serif;
+        font-family:  sans-serif;
+         font-weight: bold;
 	    margin-bottom: -10px;
 	    margin-top: 30px;  
 	    margin-bottom: 10px;
@@ -527,10 +528,10 @@ navbar-right {
         }
  
      .contribution-title {
-	    color: black;
+	    color: #2865a1;
         font-size: 14px;
-		
-        font-family:  'Raleway', sans-serif;
+		font-weight: bold;
+        font-family:  sans-serif;
         margin-top: 80px;
         }
  
