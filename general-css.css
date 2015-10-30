@@ -235,7 +235,7 @@
 /* Main content styling */ 
      .main-row {
         width: 95%; 
-         max-width: 1400px;
+         max-width: 1200px;
 	    margin: 0 auto;
         }
  
@@ -552,8 +552,8 @@ navbar-right {
  
      .writeargument-heading {
          text-align: left;
-        font-family: 'Merriweather', serif;
-        font-size: 13px;
+        font-family: arial;
+        font-size: 14px;
         color: black;
         
         }
@@ -562,8 +562,8 @@ navbar-right {
  
      .writeargument-radio {
          margin-right: 20px;
-        font-family: 'Merriweather', serif;
-        font-size: 15px;
+        font-family: arial;
+        font-size: 14px;
          font-weight: normal;
         color: black;
         text-align: center;
@@ -594,28 +594,12 @@ navbar-right {
         filter: alpha(opacity=80);	
         }
 
-    .white_content {
-        display: none;
-        position: fixed;
-        top: 0%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        margin-top: 270px;
-        max-width: 800px;
-        height: auto;
-        padding: 16px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: black;
-        background-color: white;
-        z-index:1002;
-        overflow: hidden;	
-        }
+   
 
 		
 		.white_content1 {
+			max-width: 800px;
+			min-width: 300px;
         display: none;
         position: fixed;
         top: 0%;
@@ -624,7 +608,7 @@ navbar-right {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         margin-top: 270px;
-        max-width: 800px;
+		
         height: auto;
         padding: 16px;
         border-style: solid;
@@ -635,11 +619,30 @@ navbar-right {
         overflow: hidden;	
         }
 
+		.debate-note {
+			margin-left: 20px;
+			font-family: 'Raleway', sans-serif;
+			font-size: 16px;
+			font-weight: bold;
+			text-align: left;
+		}
 		
+		.debate-note1 {
+			margin-left: 80px;
+			font-family: 'Raleway', sans-serif;
+			font-size: 16px;
+			font-weight: bold;
+			text-align: left;
+		}
+		
+		.debate-color {
+			color: red;
+		}
 		
 /* Personal profile styling */ 
 	 .personal-row {
         width: 95%;
+		max-width: 1200px;
         margin: 0 auto;
         }	 
 		
@@ -654,19 +657,19 @@ navbar-right {
 		
 		
 	 .contribution-stats1{
-	    text-transform: uppercase;
-		font-family: 'Raleway', sans-serif;
-		font-size: 14px;
+	  
+		font-family: arial;
+		font-size: 12px;
 		text-align: left;
-		margin-left: 10px;
+		margin-left: 0px;
 		color: #286090;
 		}
 		
 	 .contribution-stats2{
-		font-family: sans-serif;
-		font-size: 14px;
+		font-family: arial;
+		font-size: 12px;
 		text-align: left;
-		margin-left: 10px;
+		margin-left: 0px;
 		color: black;
 		}
 		
@@ -694,8 +697,8 @@ navbar-right {
 		}
 		
 	 .personal-timeline1 {
-		font-family: 'Raleway', sans-serif;
-		font-size: 20px;
+		font-family: arial;
+		font-size: 14px;
 		color: #286090;
 		text-align: left;
 		padding-top: 20px;
@@ -705,8 +708,8 @@ navbar-right {
 		
 	 .personal-timeline2 {
 	    color: black;
-		margin-left: 20px;
-		font-family: Georgia;
+		margin-left: 14px;
+		font-family: arial;
 		text-align: left;
 		font-size: 15px;
 		margin-right: 10px;
@@ -715,14 +718,14 @@ navbar-right {
 	 .personal-timeline3 {
 	    color: black;
 		margin-left: 80px;
-		font-family: Georgia;
+		font-family: arial;
 		text-align: left;
 		font-size: 14px;
 		margin-right: 10px;
 		}
 		
 	 .personal-timeline4 {
-		font-size: 16px;
+		font-size: 14px;
 		color: #286090;
 		font-weight: bold;
 		}
@@ -738,8 +741,12 @@ navbar-right {
        }	 
 	   
 	 .stats-box {
-	   border: 1px solid #cccccc;
-	   background-color: #f6f6f6;
+		 width: 100%;
+		 margin: 0 auto;
+		 padding-left: 5px;
+		 padding-right: 5px;
+	   border: 1px solid red;
+	   background-color: white;
 	   height: auto;
 	   }
 	   
@@ -747,8 +754,8 @@ navbar-right {
 	   
 /* Timeline page styling */ 
 	 .personal-timeline5 {
-		font-family: 'Raleway', sans-serif;
-		font-size: 20px;
+		font-family: arial;
+		font-size: 14px;
 		color: #286090;
 		text-align: left;
 		padding-top: 20px;
@@ -758,25 +765,25 @@ navbar-right {
 		
 	 .personal-timeline6 {
 		margin-left: 20px;
-		font-family: 'Merriweather', serif;
+		font-family: arial;
 		text-align: left;
-		font-size: 17px;
+		font-size: 14px;
 		margin-right: 10px;
 		color: black;
 		}
 		
 	 .personal-timeline7 {
 		margin-left: 80px;
-		font-family: 'Merriweather', serif;
+		font-family: arial;
 		text-align: left;
-		font-size: 17px;
+		font-size: 14px;
 		margin-right: 10px;
 		color: black;
 		}
 		
 	 .personal-timeline8 {
-	    font-family: 'Raleway', sans-serif;
-		font-size: 20px;
+	    font-family: arial;
+		font-size: 14px;
 		color: #286090;
 		font-weight: bold;
 		}
@@ -785,8 +792,16 @@ navbar-right {
 		
 		
 	 .delete-but {
-        color: black;
-	    font-size: 15px;
-	    font-family: 'Raleway', sans-serif;
-		display: inline;
+		 display: inline;
+		  padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+	    border: 1px solid #bbcadc;
+         border-radius: 5px;
+	    background-color:  #f1f8fb;
+        color: #2865a1;
+	font-weight: bold;
+	    font-size: 12px;
+	    font-family:  sans-serif;
         }	
