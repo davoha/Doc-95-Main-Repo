@@ -690,6 +690,8 @@ navbar-right {
 		
 		
 	 .personal-timelinemain {
+	 	 max-width: 700px;
+		 margin: 0 auto;
 		background-color: white;
 		height: auto;
 		padding-bottom: 20px;
