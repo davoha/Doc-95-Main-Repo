@@ -402,7 +402,8 @@
 .alert-info {
 	
 	margin: 0 auto;
-	width: 50%;
+ max-width: 500px;
+	width: auto;
 	padding-bottom :3px;
 	padding-top: 3px;
 
