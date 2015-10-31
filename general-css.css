@@ -485,14 +485,14 @@ navbar-right {
 	    padding-left: 20px;
         max-width: 300px;
         margin: 0 auto;
-        font-size: 15px;   
+        font-size: 13px;   
         text-align: left;
         color: #4c7ab7;
         }
  
      .trend-profilepic {
-        width:45px;
-        height:45px; 
+        width:35px;
+        height:35px; 
         margin-right: 10px;
         border-radius: 0px;
         }
@@ -532,6 +532,7 @@ navbar-right {
 	 .contribution-profilepic {
         width:45px;
         height:45px; 
+         margin-top: 5px;
         margin-right: 10px;
         margin-bottom: 0px;
         border-radius: 0px;
@@ -720,7 +721,7 @@ navbar-right {
 		}
 		
 .personal-timeline-opaque {
-        opacity: 0.2;
+        opacity: 0.3;
         margin-left: 20px;
 		font-family: arial;
 		text-align: left;
