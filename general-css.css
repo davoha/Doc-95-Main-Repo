@@ -353,7 +353,7 @@
         }
 
      .comment-personal {
-	    margin-top: 15px;
+ margin-top: 15px;
          margin-bottom: -5px;
         display: block;
         height: auto;
@@ -673,8 +673,20 @@ navbar-right {
 		color: black;
 		}
 		
+.comment-under {
+    text-align: left; 
+    margin-top: -5px; 
+    margin-bottom: 15px; 
+    margin-left: 14px;
+}
 		
-		
+.comment-under1 {
+    text-align: left; 
+    margin-top: -5px; 
+    margin-bottom: 15px; 
+    margin-left: 20px;
+}
+
 /*	 .filter-pane {
 		text-align: right;
 		color: #286090;
@@ -698,6 +710,16 @@ navbar-right {
 		margin-bottom: 20px;
 		}
 		
+.personal-timeline0 {
+    font-family: arial;
+		font-size: 14px;
+		color: #286090;
+		text-align: left;
+		padding-top: 20px;
+		margin-left: 14px;
+		font-weight: bold;
+}
+
 	 .personal-timeline1 {
 		font-family: arial;
 		font-size: 14px;
