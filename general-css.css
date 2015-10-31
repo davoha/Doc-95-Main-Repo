@@ -352,6 +352,15 @@
         font-size: 14px;
         }
 
+.table-style-opaque {
+    opacity: 0.3;
+	    color: black;
+        text-align: left;
+        font-family: arial;
+		font-weight: normal;
+        font-size: 14px;
+        }
+
      .comment-personal {
  margin-top: 15px;
          margin-bottom: -5px;
@@ -710,6 +719,16 @@ navbar-right {
 		margin-bottom: 20px;
 		}
 		
+.personal-timeline-opaque {
+        opacity: 0.2;
+        margin-left: 20px;
+		font-family: arial;
+		text-align: left;
+		font-size: 14px;
+		margin-right: 10px;
+		color: black;
+}
+
 .personal-timeline0 {
     font-family: arial;
 		font-size: 14px;
