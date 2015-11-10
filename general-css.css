@@ -470,6 +470,17 @@ navbar-right {
 		
 /* Trending styling */ 
      .trend-head {
+	    color: #666666;
+        font-size: 14px;
+        font-family:  arial;
+         font-weight: normal;
+	    margin-bottom: -10px;
+	    margin-top: 30px;  
+	    margin-bottom: 10px;
+        }	 
+	 
+	 
+	 .page-head {
 	    color: #2865a1;
         font-size: 14px;
         font-family:  arial;
