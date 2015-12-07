@@ -267,7 +267,6 @@
 .view-conver {
     font-size: 13px;
     display: inline;
-    margin-top: 10px;
     color: #286090;
     font-family: 'arial', sans-serif;
     
@@ -346,6 +345,8 @@
         padding-right: 5px;
         }
  
+
+
      .table-style2 {
 	    color: #505050;
         text-align: left;
@@ -365,7 +366,7 @@
 
      .comment-personal {
  margin-top: 2px;
-         margin-bottom: 20px;
+         margin-bottom: 30px;
         display: block;
         height: auto;
         
