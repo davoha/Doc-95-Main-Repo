@@ -265,18 +265,20 @@
         }
  
 .view-conver {
-    display: block;
+    font-size: 13px;
+    display: inline;
     margin-top: 10px;
     color: #286090;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-family: 'arial', sans-serif;
+    
     
 }
 
 
 .replyto {
     color: #286090;
-    font-weight: bold;
+    font-size: 13px;
+ 
 }
 
 .free {
@@ -345,7 +347,7 @@
         }
  
      .table-style2 {
-	    color: black;
+	    color: #505050;
         text-align: left;
         font-family: arial;
 		font-weight: normal;
@@ -362,8 +364,8 @@
         }
 
      .comment-personal {
- margin-top: 15px;
-         margin-bottom: 5px;
+ margin-top: 2px;
+         margin-bottom: 20px;
         display: block;
         height: auto;
         
@@ -371,10 +373,10 @@
  
      .comment-person {
         display: inline;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'arial', sans-serif;
         color: #286090;
         font-size: 14px;
-		font-weight: bold;
+         font-weight: bold;
         }
  
 
@@ -392,6 +394,12 @@
         font-size: 15px;
         }
  
+
+.fb1 {
+    display: inline;
+    color: #2865a1;
+    font-size: 13px;
+}
 
 .parse {
     color: #2865a1;
@@ -429,7 +437,7 @@ navbar-right {
          font-size: 12px;
         display: inline;
         font-family:  sans-serif;
-        color: black;
+         color: #2865a1;
         margin-right: 10px;
         }
 
