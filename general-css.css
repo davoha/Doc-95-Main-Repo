@@ -75,7 +75,7 @@
 		
      hr {
 	    border: 2px solid #f2f2f2;
-	    width: 70%;
+	    width: 90%;
 	    opacity: 0.5;
 	    margin-top: 10px;
 	    }
@@ -363,17 +363,17 @@
 
      .comment-personal {
  margin-top: 15px;
-         margin-bottom: -5px;
+         margin-bottom: 5px;
         display: block;
         height: auto;
-        min-height: 50px;
+        
         }
  
      .comment-person {
         display: inline;
         font-family: 'Raleway', sans-serif;
         color: #286090;
-        font-size: 15px;
+        font-size: 14px;
 		font-weight: bold;
         }
  
@@ -470,6 +470,8 @@ navbar-right {
 		
 /* Trending styling */ 
      .trend-head {
+     text-align: left;
+     padding-left: 20px;
 	    color: #666666;
         font-size: 14px;
         font-family:  arial;
@@ -493,6 +495,30 @@ navbar-right {
      .trend-text {
      		line-height: 110%;
      		
+         font-family:  arial;
+	    padding-left: 20px;
+        max-width: 300px;
+        margin: 0 auto;
+        font-size: 13px;   
+        text-align: left;
+        color: #4c7ab7;
+        }
+ 
+  .top-text-1 {
+        
+     		line-height: 110%;
+         font-family:  arial;
+	    padding-left: 20px;
+        max-width: 300px;
+        margin: 0 auto;
+        font-size: 13px;   
+        text-align: left;
+        color: #666666;
+        }
+ 
+ .top-text {
+        
+     		line-height: 110%;
          font-family:  arial;
 	    padding-left: 20px;
         max-width: 300px;
