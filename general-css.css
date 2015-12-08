@@ -70,17 +70,18 @@
     }
 }
 	
-	
+.tab-ver {
+    border-right: 2px solid #dddddd;
+}
 		
 		
      hr {
-	    border: 2px solid #f2f2f2;
+	    border: 2px solid #dddddd;
 	    width: 90%;
 	    opacity: 0.5;
 	    margin-top: 10px;
 	    }
-		
-		
+			
 		
 		
 		
@@ -88,8 +89,8 @@
 	 .logo {
 	    font-family: 'Raleway', cursive;
 	    font-weight: bold;
-	    font-size: 20px;
-	    margin-top: -8px;
+	    font-size: 16px;
+	    margin-top: 0px;
 	    padding-top: 0px;
 		color: #286090;
 	    }	
@@ -123,7 +124,7 @@
      
         color: #f2f2f2;
 	    font-size: 14px;
-	    font-family: 'Raleway', sans-serif;
+	    font-family: 'arial', sans-serif;
 	    }
 
      .nav-text2 {
@@ -132,15 +133,15 @@
 	    font-family: 'Raleway', sans-serif;
 	    }
 	 
-     .nav-text3 {
-       
+     .nav-text3 {  
 	    display: inline;
 	    border: 1px solid #bbcadc;
          border-radius: 5px;
 	    background:  #2865a1;
         color: #f1f8fb;
-	    font-size: 15px;
+	    font-size: 13px;
 	    }
+
 .subty {
     color: red;
     font-size: 14px;
@@ -896,3 +897,14 @@ navbar-right {
 	    font-size: 12px;
 	    font-family:  sans-serif;
         }	
+
+footer {
+    border: 1px solid #bbcadc;
+    background: #f1f8fb;
+        color: red;
+    font-family: arial;
+    font-size: 15px;
+}
+.footer-style {
+    color: #2865a1;
+}
