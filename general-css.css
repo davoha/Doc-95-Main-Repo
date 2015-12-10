@@ -145,7 +145,6 @@
 .subty {
     color: red;
     font-size: 14px;
-    font-weight: bold;
 }
 
  .nav-text100 {
@@ -338,7 +337,6 @@
 	 .debate-leader {
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
-         font-weight: bold;
         /* border: 1px solid red; */
         color: red;
         border-radius: 0px;
@@ -420,6 +418,22 @@
 	
 }
 
+.comment-rank {
+    display: block; 
+    margin-top: 10px; 
+    width: auto; 
+    height: 20px; 
+    color: #2865a1;
+}
+
+.reply-rank {
+    display: block; 
+    margin-top: 10px; 
+    margin-left: 40px;
+    width: auto; 
+    height: 20px; 
+    color: #2865a1;
+}
 
 .alert2 {
 	color: #2865a1;
@@ -496,7 +510,9 @@ navbar-right {
 	    color: #2865a1;
         font-size: 14px;
         font-family:  arial;
+        text-align: left;
          font-weight: bold;
+         margin-left: 40px;
 	    margin-bottom: -10px;
 	    margin-top: 30px;  
 	    margin-bottom: 10px;
@@ -616,14 +632,15 @@ navbar-right {
         
         }
  
-    
+.radio-col {
+    color: #2865a1;
+}
  
      .writeargument-radio {
          margin-right: 20px;
         font-family: arial;
         font-size: 14px;
          font-weight: normal;
-        color: black;
         text-align: center;
         padding-left: 2px;
         }
@@ -681,7 +698,6 @@ navbar-right {
 			margin-left: 20px;
 			font-family: 'Raleway', sans-serif;
 			font-size: 16px;
-			font-weight: bold;
 			text-align: left;
 		}
 		
@@ -689,7 +705,6 @@ navbar-right {
 			margin-left: 80px;
 			font-family: 'Raleway', sans-serif;
 			font-size: 16px;
-			font-weight: bold;
 			text-align: left;
 		}
 		
@@ -785,7 +800,6 @@ navbar-right {
 		text-align: left;
 		padding-top: 20px;
 		margin-left: 14px;
-		font-weight: bold;
 }
 
 	 .personal-timeline1 {
@@ -795,7 +809,6 @@ navbar-right {
 		text-align: left;
 		padding-top: 20px;
 		margin-left: 20px;
-		font-weight: bold;
 		}
 		
 	 .personal-timeline2 {
@@ -819,13 +832,12 @@ navbar-right {
 	 .personal-timeline4 {
 		font-size: 14px;
 		color: #286090;
-		font-weight: bold;
 		}
 		
 	 .lightbox-but {
         border: 1px solid #bbcadc;
-	    background: #f1f8fb;
-        color: #2865a1;
+	    background: #2865a1;
+        color: #f1f8fb;
 	    font-size: 15px;
 	    font-family: 'Raleway', sans-serif;
 		display: inline;
@@ -852,7 +864,6 @@ navbar-right {
 		text-align: left;
 		padding-top: 20px;
 		margin-left: 20px;
-		font-weight: bold;
 		}
 		
 	 .personal-timeline6 {
@@ -877,7 +888,6 @@ navbar-right {
 	    font-family: arial;
 		font-size: 14px;
 		color: #286090;
-		font-weight: bold;
 		}
 		
 		
