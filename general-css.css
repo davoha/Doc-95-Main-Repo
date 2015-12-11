@@ -250,11 +250,11 @@
      .fb-profilepic {
         width:80px;
         height:80px; 
-        align: center;
         border-radius: 0px;
         margin-top: 10px;
         }
 		
+
 	 .post-writer {
         display: block; 
         cursor: pointer; 
@@ -695,6 +695,7 @@ navbar-right {
         }
 
 		.debate-note {
+            margin-top: -10px;
 			margin-left: 20px;
 			font-family: 'Raleway', sans-serif;
 			font-size: 16px;
@@ -702,6 +703,7 @@ navbar-right {
 		}
 		
 		.debate-note1 {
+            margin-top: -10px;
 			margin-left: 80px;
 			font-family: 'Raleway', sans-serif;
 			font-size: 16px;
@@ -779,8 +781,8 @@ navbar-right {
 		 margin: 0 auto;
 		background-color: white;
 		height: auto;
-		padding-bottom: 20px;
-		margin-bottom: 20px;
+		padding-bottom: 10px;
+		margin-bottom: 30px;
 		}
 		
 .personal-timeline-opaque {
@@ -798,11 +800,12 @@ navbar-right {
 		font-size: 14px;
 		color: #286090;
 		text-align: left;
-		padding-top: 20px;
+margin-bottom: 0px;
 		margin-left: 14px;
 }
 
 	 .personal-timeline1 {
+         margin-bottom: 0px;
 		font-family: arial;
 		font-size: 14px;
 		color: #286090;
@@ -821,6 +824,8 @@ navbar-right {
 		}
 		
 	 .personal-timeline3 {
+         margin-top: -13px;
+
 	    color: black;
 		margin-left: 80px;
 		font-family: arial;
@@ -858,11 +863,11 @@ navbar-right {
 	   
 /* Timeline page styling */ 
 	 .personal-timeline5 {
+         margin-bottom: 0px;
 		font-family: arial;
 		font-size: 14px;
 		color: #286090;
 		text-align: left;
-		padding-top: 20px;
 		margin-left: 20px;
 		}
 		
@@ -875,7 +880,14 @@ navbar-right {
 		color: black;
 		}
 		
+.personal-timeline60 {
+		margin-left: 20px;
+		text-align: left;
+		margin-right: 10px;
+		}
+
 	 .personal-timeline7 {
+         margin-top: -13px;
 		margin-left: 80px;
 		font-family: arial;
 		text-align: left;
